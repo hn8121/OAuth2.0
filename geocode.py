@@ -24,7 +24,7 @@ def getGeocodeLocation(inLocation):
     #print('response header: %s\n\n' % response)
     latitude = result['results'][0]['geometry']['location']['lat']
     longitude = result['results'][0]['geometry']['location']['lng']
-    print('%s,%s' % (latitude,longitude))
+    #print('%s,%s' % (latitude,longitude))
     return (latitude,longitude)
     #return result
 
